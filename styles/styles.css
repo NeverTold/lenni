@@ -94,11 +94,16 @@ h1 {
     padding-right: 290px ;
 }
 .doit {
-    display: flex;
-
+    position: relative;
+    left: -52px;
+    width: 2161px;
 }
 .doit p {
     font-family: mak;
+    font-size: 128px;
+}
+.doit p:last-child {
+    text-align: end;
 }
 .page-footer {
     height: 320px;
