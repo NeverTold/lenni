@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lenni</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@400,500;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/normalize.css">
+  <link rel="stylesheet" href="../styles/styles.css">
+
+</head>
+
+<body class="body">
+  <header class="page-header">
+    <div class="page-header__container">
+      <a class="page-header__logo" href="#">
+        <svg class="page-header__logo-icon" width="202" height="147">
+          <use xlink:href="assets/icons/symbols.svg#logo"></use>
+        </svg>
+      </a>
+      <nav class="page-header__nav">
+        <a class="page-header__nav-link" href="#events">Меропрития</a>
+        <a class="page-header__nav-link" href="#blog">Блог</a>
+        <a class="page-header__nav-link" href="#about">О нас</a>
+        <a class="page-header__nav-link" href="#contacts">Контакты</a>
+      </nav>
+      <div class="page-header__right-block">
+        <a class="page-header__user-link btn">
+          Войти
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="home">
+      <header class="main-header home__main-header">
+        <h1>АРТ-ПРОСТРАНСТВО</h1>
+        <img src="" alt="">
+        <p>для людей, горящих сердцЕМ и делом место для настоящего</p>
+      </header>
+      <section class="offers home__offers">
+        <h4 class="offers__title">Я хочу:</h4>
+        <div class="offers__btns">
+          <button class="offers__btn btn btn--red">Провести мероприятие</button>
+          <button class="offers__btn btn">Стать арендатором</button>
+        </div>
+      </section>
+      <section class="about home__about id=" about">
+        <h2 class="about__section-title section-title">О нас</h2>
+        <div class="about__container">
+
+        </div>
+      </section>
+      <section class="upcoming home__upcoming" id="events">
+        <h2 class="upcoming__section-title section-title">Меропрития</h2>
+        <div class="upcoming__container"></div>
+      </section>
+      <!-- prettier-ignore -->
+      <section class="listing home__listing">
+        <h2 class="listing__title section-title">Блог</h2>
+
+        <div class="listing__article-list">
+          <!-- prettier-ignore -->
+          <article class="article-card listing__article-card">
+            <a href="#" class="article-card__link">
+              <picture class="article-card__picture">
+                <img src="assets/images/blog/theatre.webp" alt="Theatre Photosession" class="article-card__img" />
+              </picture>
+            </a>
+
+            <div class="article-card__info">
+              <time datetime="2024-11-26T00:00" class="article-card__time">26.11.2024</time>
+              <a href="#" class="article-card__title-link">
+                <h4 class="article-card__title">Фотосессия в стенах Театра драмы</h4>
+                <div class="article-card__arrow arrow">
+                  <svg class="arrow__icon" width="92" height="62">
+                    <use xlink:href="assets/icons/symbols.svg#arrow"></use>
+                  </svg>
+                </div>
+              </a>
+
+              <p class="article-card__description">Организовывая фотосессию для локального бренда одежды мы смогли воплотить все пожелания заказчика и у нас получилась отличная работа. Смотрите как это было </p>
+            </div>
+          </article>
+          <article class="article-card listing__article-card">
+            <a href="#" class="article-card__link">
+              <picture class="article-card__picture">
+                <img src="assets/images/blog/VR.webp" alt="VR exhibition" class="article-card__img" />
+              </picture>
+            </a>
+
+            <div class="article-card__info">
+              <time datetime="2024-11-05T00:00" class="article-card__time">05.11.2024</time>
+              <a href="#" class="article-card__title-link">
+                <h4 class="article-card__title">Выставка VR в Томске</h4>
+                <div class="article-card__arrow arrow">
+                  <svg class="arrow__icon" width="92" height="62">
+                    <use xlink:href="assets/icons/symbols.svg#arrow"></use>
+                  </svg>
+                </div>
+              </a>
+
+              <p class="article-card__description">Клуб виртуальной реальности - это другие миры. яркие эмоции. новый опыт. ... Мы предоставляем нашим клиентам лучший игровой VR-опыт в Томске.</p>
+            </div>
+          </article>
+          <article class="article-card listing__article-card">
+            <a href="#" class="article-card__link">
+              <picture class="article-card__picture">
+                <img src="assets/images/blog/rocking radio.webp" alt="Rocking radio" class="article-card__img" />
+              </picture>
+            </a>
+
+            <div class="article-card__info">
+              <time datetime="2024-11-01T00:00" class="article-card__time">01.11.2024</time>
+              <a href="#" class="article-card__title-link">
+                <h4 class="article-card__title">Rocking radio в заброшенном ангаре</h4>
+                <div class="article-card__arrow arrow">
+                  <svg class="arrow__icon" width="92" height="62">
+                    <use xlink:href="assets/icons/symbols.svg#arrow"></use>
+                  </svg>
+                </div>
+              </a>
+
+              <p class="article-card__description">15 электрогенераторов, километры проводов и пару тонн света. Все это для того, чтобы организовать лучшую вечеринку года для ребят из Новосибирска.</p>
+            </div>
+          </article>
+        </div>
+
+        <a href="#" class="listing__link link">Смотреть все</a>
+      </section>
+      <section class="listing home__listing " id="blog">
+        <h2 class="listing__section-title section-title">Блог</h2>
+
+      </section>
+      <section class="contacts home__contacts " id="contacts">
+        <h2 class="contacts__section-title section-title">Контакты</h2>
+        <div class="contacts__container"></div>
+      </section>
+      <div class="doit">
+        <p>Просто делайте, что нравится, </p>
+        <p>а мы вам поможем</p>
+      </div>
+    </div>
+  </main>
+  <div class="divider">
+    <svg viewBox="0 0 1334 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1334.000000" height="2.000000" fill="none" customFrame="#000000">
+      <defs>
+        <linearGradient id="paint_linear_0" x1="618" x2="105.942871" y1="0" y2="0" gradientUnits="userSpaceOnUse">
+          <stop stop-color="rgb(28,27,27)" offset="0" stop-opacity="1" />
+          <stop stop-color="rgb(255,255,255)" offset="1" stop-opacity="0" />
+        </linearGradient>
+        <linearGradient id="paint_linear_1" x1="716" x2="1334" y1="0" y2="2.00000978" gradientUnits="userSpaceOnUse">
+          <stop stop-color="rgb(28,27,27)" offset="0" stop-opacity="1" />
+          <stop stop-color="rgb(255,255,255)" offset="1" stop-opacity="0" />
+        </linearGradient>
+      </defs>
+      <g id="Group 1045903">
+        <rect id="Rectangle 138" width="618.000000" height="2.000000" x="0.000000" y="0.000000" fill="url(#paint_linear_0)" />
+        <rect id="Rectangle 252" width="618.000000" height="2.000000" x="716.000000" y="0.000000" fill="url(#paint_linear_1)" />
+      </g>
+    </svg>
+  </div>
+  <footer class="page-footer">
+
+  </footer>
+
+</body>
+
+</html>
