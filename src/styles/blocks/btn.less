@@ -1,0 +1,40 @@
+.btn {
+    display: inline-flex;
+    box-sizing: border-box;
+    padding: 15px 40px;
+    border: 1px solid @black;
+    text-decoration: none;
+    background-color: transparent;
+    outline: none;
+    color: @black;
+    font-family: @font1;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.375;
+    align-items: center;
+    overflow: hidden;
+    cursor: pointer;
+    height: 52px;
+    transition: background-color 0.2s, color 0.2s;
+    &:hover {
+        background-color: @black;
+        color: @white;
+    }
+    &--red {
+        background-color: @red;
+        color :@white;
+    }
+    &--red:hover {
+        background-color: @red_dark;
+    }
+    &-text {
+        width: 128px;
+        height: 132px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 1.375;
+        color: rgba(31, 30, 30, 1);
+        text-decoration: none;
+    }
+}
